@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Aplikasi Menghitung Rencana Anggaran Biaya</string>
+    <string name="app_title">App RAB</string>
+    <string name="title_add">Add Project</string>
+    <string name="title_export_excel">Export Excel</string>
+
+    <string name="detail_update_analisa">BERDASARKAN PERATURAN MENTRI PEKERJAAN UMUM DAN PERUMAHAN RAKYAT NOMOR: 28/PRT/M/2016 BIDANG CIPTA KARYA</string>
+    <string name="analisa_SNI">Analisa SNI</string>
+
+    <string name="title_nav1">Nav 1</string>
+    <string name="title_nav2">Nav 2</string>
+    <string name="title_nav3">Nav 3</string>
+
+    <string name="name_project_text">Nama Proyek</string>
+    <string name="name_project_work_text">Perkerjaan Persiapan</string>
+    <string name="location_text">Lokasi</string>
+    <string name="worker_text">Pekerjaan</string>
+    <string name="title_activity_analisa">AnalisaActivity</string>
+    <string name="title_activity_update_analisa">UpdateAnalisaActivity</string>
+</resources>

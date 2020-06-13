@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.PaduanActi">
+    <RelativeLayout
+        android:layout_centerInParent="true"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:background="@drawable/logo_trans"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:textColor="@color/blacji"
+                android:fontFamily="@font/fira_family2"
+                android:padding="20dp"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:textSize="25dp"
+                android:text="PANDUAN PENGGUNAAN APLIKASI RENCANA ANGGARAN BIAYA"></TextView>
+            <LinearLayout
+                android:layout_margin="5dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_back">
+
+                <TextView
+                    android:fontFamily="@font/fira_family2"
+                    android:textColor="@android:color/white"
+                    android:padding="20dp"
+                    android:textStyle="bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:text="1. Untuk menambahkan proyek baru, klik tombol + dibagian atas sesuai gambar "></TextView>
+
+                <ImageView
+                    android:padding="10dp"
+                    android:id="@+id/imageView8"
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    app:srcCompat="@drawable/ba1" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_margin="5dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_back">
+                <TextView
+                    android:fontFamily="@font/fira_family2"
+                    android:textColor="@android:color/white"
+                    android:padding="20dp"
+                    android:textStyle="bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:text="2. Masukan nama proyek dan lokasi proyek kemudian klik tambahkan"></TextView>
+                <ImageView
+                    android:padding="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    app:srcCompat="@drawable/ba2" />
+
+            </LinearLayout><LinearLayout
+            android:layout_margin="5dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_back">
+            <TextView
+                android:fontFamily="@font/fira_family2"
+                android:textColor="@android:color/white"
+                android:padding="20dp"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="3. klik detail untuk memasukan data pekerjaan. Untuk menambahkan jenis pekerjaan dapat dilakukan dengan menekan tombol + pada kiri bawah"></TextView>
+            <ImageView
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                app:srcCompat="@drawable/ba3" />
+        </LinearLayout><LinearLayout
+            android:layout_margin="5dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_back">
+            <TextView
+                android:fontFamily="@font/fira_family2"
+                android:textColor="@android:color/white"
+                android:padding="20dp"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="4. Masukkan jenis pekerjaan yang akan ditambahkan dalam project untuk dihitung volume dan analisis harga satuannya dari masing-masing pekerjaan."></TextView>
+            <ImageView
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                app:srcCompat="@drawable/ba4" />
+        </LinearLayout><LinearLayout
+            android:layout_margin="5dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_back">
+            <TextView
+                android:fontFamily="@font/fira_family2"
+                android:textColor="@android:color/white"
+                android:padding="20dp"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="5. Klik edit untuk memasukkan ukuran,analisis harga barang/upah, koefisien, dan keuntungan. Tekan tombol kembali jika sudah selesai menginput data."></TextView>
+            <ImageView
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                app:srcCompat="@drawable/ba5" />
+        </LinearLayout><LinearLayout
+            android:layout_margin="5dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_back">
+            <TextView
+                android:fontFamily="@font/fira_family2"
+                android:textColor="@android:color/white"
+                android:padding="20dp"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="6. Klik tombol ekspor dipojok kanan atas untuk mengubah hasil hitungan kedalam tabel Microsoft Excel, kemudian bisa kita langsung melihat hasil ekspor
+\nCatatan : Apabila file ekspor tidak terbuka, maka silahkan buka file manager, kemudian cari folder Rabdata. File excel dapat diakses dengan menekan file difolder tersebut."></TextView>
+            <ImageView
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                app:srcCompat="@drawable/ba6" />
+        </LinearLayout><LinearLayout
+            android:layout_margin="5dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_back">
+            <TextView
+                android:fontFamily="@font/fira_family2"
+                android:textColor="@android:color/white"
+                android:padding="20dp"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="7. Dalam aplikasi ini digunakan SNI 2016 sebagai acuan koefisien yang digunakan untuk menganalisis satuan pekerjaan. Apabila terdapat SNI terbaru maka dapat dilakukan pengubahan koefisien dengan menggunakan tombol “analisa”."></TextView>
+            <ImageView
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                app:srcCompat="@drawable/ba7" />
+        </LinearLayout><LinearLayout
+            android:layout_margin="5dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_back">
+            <TextView
+                android:fontFamily="@font/fira_family2"
+                android:textColor="@android:color/white"
+                android:padding="20dp"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="8. Apabila ingin mengganti detail harga masing-masing item dapat dilakukan dengan menekan tombol “harga”"></TextView>
+            <ImageView
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                app:srcCompat="@drawable/ba8" />
+        </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

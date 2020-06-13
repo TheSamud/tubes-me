@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#BF499CFF</color>
+    <color name="colorPrimaryDark">#DD669DE0</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="colorPrimary2">#BF70FF49</color>
+    <color name="colorPrimary3">#BFFF499E</color>
+    <color name="colorPrimary4">#BFFFE149</color>
+
+    <color name="Greene">#708DFD68</color>
+    <color name="Tsplash">#FFFA95</color>
+    <color name="Tsplashq">#DDD6E0F8</color>
+    <color name="blacji">#000000</color>
+    <color name="blacji2">#636363</color>
+
+</resources>
+

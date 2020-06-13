@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:paddingTop="@dimen/padding_dialog"
+        android:paddingLeft="@dimen/padding_dialog"
+        android:paddingRight="@dimen/padding_dialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:textColor="@color/blacji"
+            android:fontFamily="@font/fira_family2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/name_project_text"/>
+        <com.google.android.material.textfield.TextInputEditText
+            android:textStyle="bold"
+            android:textSize="16dp"
+            android:fontFamily="@font/fira_family2"
+            android:textColor="@color/blacji"
+            android:textColorHint="@color/blacji2"
+            android:id="@+id/input_name_project"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/name_project_text"
+            />
+        <TextView
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:textColor="@color/blacji"
+            android:fontFamily="@font/fira_family2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/location_text"/>
+        <com.google.android.material.textfield.TextInputEditText
+            android:textStyle="bold"
+            android:textSize="16dp"
+            android:fontFamily="@font/fira_family2"
+            android:textColor="@color/blacji"
+            android:textColorHint="@color/blacji2"
+            android:id="@+id/input_location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/location_text"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_gravity="right"
+        android:gravity="left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <TextView
+            android:clickable="true"
+            android:textAlignment="center"
+            android:padding="@dimen/padding_min"
+            android:textStyle="bold"
+            android:fontFamily="@font/fira_family2"
+            android:textColor="@color/blacji"
+            android:backgroundTint="@color/colorPrimary"
+            android:layout_margin="10dp"
+            android:id="@+id/btn_1"
+            android:background="@drawable/bubu"
+            android:layout_width="@dimen/button_weidth"
+            android:layout_height="wrap_content"
+            android:text="BUTTON 1" />
+
+        <TextView
+            android:clickable="true"
+            android:textAlignment="center"
+            android:padding="@dimen/padding_min"
+            android:textStyle="bold"
+            android:fontFamily="@font/fira_family2"
+            android:backgroundTint="@color/colorPrimary2"
+            android:layout_margin="10dp"
+            android:textColor="@color/blacji"
+            android:id="@+id/btn_2"
+            android:background="@drawable/bubu"
+            android:layout_width="@dimen/button_weidth"
+            android:layout_height="wrap_content"
+            android:text="BUTTON 2" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:padding="@dimen/padding_dialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:textColor="@color/blacji"
+            android:fontFamily="@font/fira_family2"
+            android:text="Pilih Jenis Pekerjaan :"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+        <Spinner
+            android:backgroundTint="@color/blacji"
+            android:id="@+id/spiner"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+    <LinearLayout
+        android:padding="@dimen/padding_dialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:textColor="@color/blacji"
+            android:fontFamily="@font/fira_family2"
+            android:text="Pilih Pekerjaan Koefisiens :"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+        <Spinner
+            android:backgroundTint="@color/colorPrimaryDark"
+            android:id="@+id/spiner2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+    <LinearLayout
+        android:padding="@dimen/padding_dialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:textColor="@color/blacji"
+            android:fontFamily="@font/fira_family2"
+            android:text="Koefisien :"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+        <Spinner
+            android:backgroundTint="@color/colorPrimaryDark"
+            android:id="@+id/spiner3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_gravity="right"
+        android:gravity="right"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <TextView
+
+            android:fontFamily="@font/fira_family2"
+            android:clickable="true"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:padding="@dimen/padding_min"
+            android:backgroundTint="@color/colorPrimary2"
+            android:layout_margin="10dp"
+            android:textColor="@color/blacji"
+            android:id="@+id/btn_1"
+            android:background="@drawable/bubu"
+            android:layout_width="@dimen/button_weidth"
+            android:layout_height="wrap_content"
+            android:text="BUTTON 1" />
+
+        <TextView
+            android:fontFamily="@font/fira_family2"
+            android:clickable="true"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:padding="@dimen/padding_min"
+            android:backgroundTint="@color/colorPrimary"
+            android:layout_margin="10dp"
+            android:textColor="@color/blacji"
+            android:id="@+id/btn_2"
+            android:background="@drawable/bubu"
+            android:layout_width="@dimen/button_weidth"
+            android:layout_height="wrap_content"
+            android:text="BUTTON 2" />
+    </LinearLayout>
+
+</LinearLayout>

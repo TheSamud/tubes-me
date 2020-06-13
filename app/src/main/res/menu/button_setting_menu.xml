@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/new_project2"
+        android:icon="@drawable/ic_volume_off_black_24dp"
+        android:title="Music"
+        app:showAsAction="always" />
+    <item android:id="@+id/new_project"
+        android:icon="@drawable/ic_add_black_24dp"
+        android:title="@string/title_add"
+        app:showAsAction="always" />
+
+</menu>

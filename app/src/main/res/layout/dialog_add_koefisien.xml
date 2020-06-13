@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:fontFamily="@font/fira_family"
+            android:textColor="@android:color/white"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:textAllCaps="true"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:padding="@dimen/padding_min"
+            android:layout_height="wrap_content"
+            android:text="@string/analisa_SNI"/>
+    </LinearLayout>
+    <LinearLayout
+        android:padding="@dimen/padding_dialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/input_name_project"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/name_project_text"
+            />
+        <LinearLayout
+            android:padding="@dimen/padding_dialog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:fontFamily="@font/fira_family"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/worker_text"/>
+            <AutoCompleteTextView
+                android:id="@+id/input_location"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/worker_text"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:gravity="right"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <Button
+            android:layout_margin="10dp"
+            android:textColor="@android:color/white"
+            android:id="@+id/btn_1"
+            android:background="@android:drawable/progress_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:text="BUTTON 1" />
+
+        <Button
+            android:layout_margin="10dp"
+            android:textColor="@android:color/white"
+            android:id="@+id/btn_2"
+            android:background="@android:drawable/progress_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:text="BUTTON 2" />
+    </LinearLayout>
+
+</LinearLayout>

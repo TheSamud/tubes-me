@@ -1,0 +1,119 @@
+{
+  "data": [
+    {
+      "id" : "@0@",
+      "nama" : "Pekerja",
+      "satuan" : "OH",
+      "koef" : "0.1",
+      "hargasatuan" : 65000
+    },{
+      "id" : "@1@",
+      "nama" : "Mandor",
+      "satuan" : "OH",
+      "koef" : "0.025",
+      "hargasatuan" : 80000
+    },{
+      "id" : "@2@",
+      "nama" : "Tenaga gali tanah/pondasi",
+      "satuan" : "OH",
+      "koef" : "0.025",
+      "hargasatuan" : 65000
+    },{
+      "id" : "@3@",
+      "nama" : "Tukang batu",
+      "satuan" : "OH",
+      "koef" : "0.025",
+      "hargasatuan" : 72500
+    },{
+      "id" : "@4@",
+      "nama" : "Tukang kayu",
+      "satuan" : "OH",
+      "koef" : "0.025",
+      "hargasatuan" : 72500
+    },{
+      "id" : "@5@",
+      "nama" : "Tukang cat",
+      "satuan" : "OH",
+      "koef" : "0.025",
+      "hargasatuan" : 72500
+    },{
+      "id" : "@6@",
+      "nama" : "Tukang besi",
+      "satuan" : "OH",
+      "koef" : "0.025",
+      "hargasatuan" : 72500
+    },{
+      "id" : "@7@",
+      "nama" : "Tukang politur",
+      "satuan" : "OH",
+      "koef" : "0.025",
+      "hargasatuan" : 72500
+    },{
+      "id" : "@8@",
+      "nama" : "Tukang Listrik",
+      "satuan" : "OH",
+      "koef" : "0.025",
+      "hargasatuan" : 72500
+    },{
+      "id" : "@9@",
+      "nama" : "Tukang Las Konstruksi",
+      "satuan" : "OH",
+      "koef" : "0.025",
+      "hargasatuan" : 72500
+    },{
+      "id" : "@10@",
+      "nama" : "Tukang Las biasa",
+      "satuan" : "OH",
+      "koef" : "0.025",
+      "hargasatuan" : 72500
+    },{
+      "id" : "@11@",
+      "nama" : "Tukang Khusus Alumunium",
+      "satuan" : "OH",
+      "koef" : "0.025",
+      "hargasatuan" : 72500
+    },{
+      "id" : "@12@",
+      "nama" : "Tukang Pipa ledeng",
+      "satuan" : "OH",
+      "koef" : "0.025",
+      "hargasatuan" : 72500
+    },{
+      "id" : "@13@",
+      "nama" : "Kepala tukang batu",
+      "satuan" : "OH",
+      "koef" : "0.025",
+      "hargasatuan" : 72500
+    },{
+      "id" : "@14@",
+      "nama" : "Kepala tukang kayu",
+      "satuan" : "OH",
+      "koef" : "0.025",
+      "hargasatuan" : 72500
+    },{
+      "id" : "@15@",
+      "nama" : "Kepala tukang cat",
+      "satuan" : "OH",
+      "koef" : "0.025",
+      "hargasatuan" : 72500
+    },{
+      "id" : "@16@",
+      "nama" : "Kepala tukang besi",
+      "satuan" : "OH",
+      "koef" : "0.025",
+      "hargasatuan" : 72500
+    },{
+      "id" : "@17@",
+      "nama" : "Kepala tukang politur",
+      "satuan" : "OH",
+      "koef" : "0.025",
+      "hargasatuan" : 72500
+    },{
+      "id" : "@12021232131@",
+      "nama" : "Kepala tukang las",
+      "satuan" : "OH",
+      "koef" : "0.025",
+      "hargasatuan" : 72500
+    }
+  ]
+}

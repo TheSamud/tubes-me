@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/spls"
+    tools:context=".splash">
+
+    <TextView
+        android:id="@+id/sfc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/fira_family"
+        android:text="APLIKASI MENGHITUNG RENCANA ANGGARAN BIAYA"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+    <ImageView
+        android:visibility="gone"
+        android:layout_marginTop="20dp"
+        android:id="@+id/ss"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:src="@drawable/ic_launcher_foreground"/>
+
+    <RelativeLayout
+        android:layout_below="@+id/sfc"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_above="@+id/asf"
+        android:layout_margin="10dp"
+        android:background="@drawable/button_back"
+        android:backgroundTint="@android:color/white"
+        >
+        <LinearLayout
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+            <ImageView
+                android:layout_centerHorizontal="true"
+                android:layout_width="220dp"
+                android:layout_height="220dp"
+                android:src="@drawable/cinta"/>
+            <TextView
+                android:visibility="gone"
+                android:fontFamily="@font/fira_family"
+                android:textAlignment="center"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:textSize="50dp"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Makin mudah dan cepat dengan aplikasi ini!"/>
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/asf"
+        android:layout_marginBottom="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_marginTop="10dp"
+            android:clickable="true"
+            android:onClick="KD"
+            android:id="@+id/linear1"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingConstraints">
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/round_button"
+                android:backgroundTint="@android:color/white"/>
+
+            <ImageView
+                android:layout_marginTop="10dp"
+                android:id="@+id/sda"
+                android:layout_centerHorizontal="true"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/ic_assignment_black_24dp"/>
+            <TextView
+                android:fontFamily="@font/fira_family"
+                android:textSize="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_below="@+id/sda"
+                android:layout_centerHorizontal="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorPrimary"
+                android:text="KD"></TextView>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:clickable="true"
+            android:onClick="Profile"
+            android:id="@+id/linear2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingConstraints">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/round_button"
+                android:backgroundTint="@android:color/white"/>
+
+            <ImageView
+                android:layout_marginTop="10dp"
+                android:id="@+id/sda2"
+                android:layout_centerHorizontal="true"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/ic_assignment_ind_black_24dp"/>
+            <TextView
+                android:fontFamily="@font/fira_family"
+                android:textSize="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_below="@+id/sda2"
+                android:layout_centerHorizontal="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorPrimary"
+                android:text="Profile"></TextView>
+
+
+<!--            <Button-->
+<!--                android:id="@+id/imageView2"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:background="@drawable/huy"-->
+<!--                android:backgroundTint="@color/colorPrimary"-->
+<!--                android:drawableTop="@drawable/ic_assignment_black_24dp"-->
+<!--                android:onClick="Profile"-->
+<!--                android:text="KD"-->
+<!--                android:textColor="@android:color/white" />-->
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:clickable="true"
+            android:onClick="Paduan"
+            android:id="@+id/linear3"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingConstraints">
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/round_button"
+                android:backgroundTint="@android:color/white"/>
+
+            <ImageView
+                android:layout_marginTop="10dp"
+                android:id="@+id/sda3"
+                android:layout_centerHorizontal="true"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/ic_book_black_24dp"/>
+            <TextView
+                android:fontFamily="@font/fira_family"
+                android:textSize="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_below="@+id/sda3"
+                android:layout_centerHorizontal="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorPrimary"
+                android:text="Panduan"></TextView>
+
+<!--            <Button-->
+<!--                android:id="@+id/imageView3"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:background="@drawable/huy"-->
+<!--                android:backgroundTint="@color/colorPrimary"-->
+<!--                android:drawableTop="@drawable/ic_assignment_black_24dp"-->
+<!--                android:onClick="Paduan"-->
+<!--                android:text="KD"-->
+<!--                android:textColor="@android:color/white" />-->
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:clickable="true"
+            android:layout_marginTop="20dp"
+            android:onClick="OnClick"
+            android:id="@+id/linear4"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linear1"
+            tools:ignore="MissingConstraints">
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/round_button"
+                android:backgroundTint="@android:color/white"/>
+
+            <ImageView
+                android:layout_marginTop="20dp"
+                android:id="@+id/sda4"
+                android:layout_centerHorizontal="true"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/ic_play_circle_filled_black_24dp"/>
+            <TextView
+                android:fontFamily="@font/fira_family"
+                android:textSize="25dp"
+                android:layout_marginTop="5dp"
+                android:layout_below="@+id/sda4"
+                android:layout_centerHorizontal="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorPrimary3"
+                android:text="Play"></TextView>
+<!--            <Button-->
+<!--                android:id="@+id/imageView4"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:background="@drawable/huy"-->
+<!--                android:backgroundTint="@color/colorPrimary"-->
+<!--                android:drawableTop="@drawable/ic_assignment_black_24dp"-->
+<!--                android:onClick="OnClick"-->
+<!--                android:text="KD"-->
+<!--                android:textColor="@android:color/white" />-->
+
+        </RelativeLayout>
+
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:visibility="gone"
+            android:id="@+id/floating_add_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_volume_off_black_24dp"
+            app:backgroundTint="@color/colorPrimary"
+
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/ds"
+        android:layout_alignParentBottom="true"
+        android:textColor="@android:color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="25dp"
+        android:text="UNIVERSITAS NEGERI YOGYAKARTA"/>
+
+
+</RelativeLayout>

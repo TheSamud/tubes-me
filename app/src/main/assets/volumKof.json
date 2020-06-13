@@ -1,0 +1,32 @@
+{
+"data" :[
+  {
+    "id" : "#1#",
+    "name" : "Volume",
+    "type" : "$1$",
+    "canAdd" : false,
+    "total" : 0
+  },
+  {
+    "id" : "#2#",
+    "name" : "Volume",
+    "type" : "$1$",
+    "canAdd" : true,
+    "total" : 0
+  },
+  {
+    "id" : "#3#",
+    "name" : "Luas",
+    "type" : "$1$",
+    "canAdd" : false,
+    "total" : 0
+  },
+  {
+    "id" : "#4#",
+    "name" : "Luas",
+    "type" : "$1$",
+    "canAdd" : true,
+    "total" : 0
+  }
+]
+}
