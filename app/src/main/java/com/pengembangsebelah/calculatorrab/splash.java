@@ -52,7 +52,7 @@ public class splash extends AppCompatActivity {
 
                 VideoView videoView = view.findViewById(R.id.video_notifa);
                 controller.setMediaPlayer(videoView);
-                Uri uri = Uri.parse("android.resource://"+getPackageName()+"/"+R.raw.testme);
+                Uri uri = Uri.parse("android.resource://"+getPackageName()+"/"+R.raw.coba3);
                 videoView.setVideoURI(uri);
                 videoView.setMediaController(controller);
 //                videoView.setOnCompletionListener(new MediaPlayer.OnCompletionListener() {
@@ -63,7 +63,7 @@ public class splash extends AppCompatActivity {
 //                    }
 //                });
                 videoView.start();
-//                videoView.seekTo(1);
+                videoView.seekTo(1);
 
                 TextView textView = view.findViewById(R.id.text_notifa);
                 textView.setText(mess);
